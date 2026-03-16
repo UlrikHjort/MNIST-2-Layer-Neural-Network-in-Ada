@@ -1,0 +1,48 @@
+MNIST Neural Network in Ada
+============================
+
+Reading training images...
+Magic:  2051
+Images:  60000
+Rows:  28
+Cols:  28
+
+Reading training labels...
+Label Magic:  2049
+Labels:  60000
+
+Initializing neural network...
+Architecture:  784 ->  128 ->  10
+
+Starting training...
+Learning rate: 0.01, Batch size: 32, Epochs: 5
+
+Epoch  1 - Train Accuracy:  7.17900E+01% Loss:  3.97788E+00
+Epoch  2 - Train Accuracy:  8.43817E+01% Loss:  6.53831E+00
+Epoch  3 - Train Accuracy:  8.57867E+01% Loss:  7.37675E+00
+Epoch  4 - Train Accuracy:  8.65600E+01% Loss:  7.77469E+00
+Epoch  5 - Train Accuracy:  8.72283E+01% Loss:  8.01164E+00
+
+Training complete!
+
+Testing on test set...
+Test images:  10000
+
+========================================
+TEST SET RESULTS
+========================================
+Total test images:  10000
+Correct predictions:  8718
+Test Accuracy:  8.71800E+01%
+
+Per-digit accuracy:
+  Digit  0:  9.86735E+01%
+  Digit  1:  8.43172E+01%
+  Digit  2:  8.40116E+01%
+  Digit  3:  8.66337E+01%
+  Digit  4:  8.64562E+01%
+  Digit  5:  8.68834E+01%
+  Digit  6:  8.73695E+01%
+  Digit  7:  8.69650E+01%
+  Digit  8:  8.45996E+01%
+  Digit  9:  8.65213E+01%
